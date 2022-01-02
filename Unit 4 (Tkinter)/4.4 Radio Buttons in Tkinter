@@ -1,6 +1,0 @@
-### Radio Buttons in Tkinter
-
-**Radio button** is a group of buttons in which only one box can be selected a time. We can use the `Radiobutton` widget to create radio buttons. 
-
-TODO
-
