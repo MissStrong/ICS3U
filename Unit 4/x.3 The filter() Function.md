@@ -39,3 +39,15 @@ print(strings)  # prints ["a", "xyz"]
 ```
 
 The reason we use `str.isalpha` instead of just `isalpha` is because the `isalpha()` function is a [string method](https://docs.python.org/3/library/stdtypes.html#string-methods), and methods require the library name in front of the dot to differentiate them from other functions.
+
+### Lambda Functions
+
+We can use lambda functions with `filter()`.
+
+```python
+numbers = [1, 3, 7, 9, 16, 24, 25, 28, 49, 101]
+
+numbers = list(filter(lambda n: 0 <= n and n ** 0.5 % 2 == 1, numbers))
+
+print(numbers)  # prints [1, 9, 25, 49]
+```
