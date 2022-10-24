@@ -37,3 +37,16 @@ strings = list(map(str.upper, strings))
 
 print(strings)  # prints ["A", "123", "CUL8R", "XYZ"]
 ```
+
+### Lambda Functions
+
+We can use lambda functions with `map()`.
+
+```python
+strings = ["a", "bc", "de", "fgh"]
+
+strings = list(map(lambda s: s * 3, strings))
+
+print(strings)  # prints ["aaa", "bcbcbc", "dedede", "fghfghfgh"]
+```
+
