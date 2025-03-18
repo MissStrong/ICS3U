@@ -1,5 +1,3 @@
-# [Link to video.](https://www.youtube.com/watch?v=I0J-1tl33ew&list=PLVD25niNi0BkfIw2Tz5_FeJeFJhbh43AL)
-
 ### Conditionals
 
 We learned about the `if`, `elif`, and `else` statements earlier.
