@@ -1,6 +1,6 @@
 # [Link to video.](https://www.youtube.com/watch?v=qjRvd50v64M&list=PLVD25niNi0Bkrelmc-dxdpMzITt5YTBsc&index=8)
 
-### eval()
+### The Eval Function
 
 Python has a built-in function named `eval()` that takes a string and treats it as a math expression.
 
