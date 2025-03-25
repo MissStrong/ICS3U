@@ -1,5 +1,4 @@
-## Note: Post-Secondary Opportunities
-
+### Post-Secondary Opportunities
 
 ### Definitions
 
