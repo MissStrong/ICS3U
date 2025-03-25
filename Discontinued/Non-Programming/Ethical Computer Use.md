@@ -1,4 +1,4 @@
-## Note – Ethical Computer Use
+### Ethical Computer Use
 
 ### Ethical and Social Implications of Computer Use
 
