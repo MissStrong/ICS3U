@@ -1,0 +1,107 @@
+# [Link to video.](https://www.youtube.com/watch?v=h_WifRpnS3M&list=PLVD25niNi0BkyCc47RgZHKnmIh6nsupN7)
+
+### Mouse Interaction in Turtle
+
+Turtle has two functions that can be used to detect mouse pressing: `onclick()` and `onrelease()`. 
+
+The `onclick()` function calls a function of our choice whenever we click on the turtle. The catch is that the function must take two parameters indicating the current (x, y) coordinate of the turtle, but we don't need to use `x` or `y` and we can also just get the position of any turtle using `position()` anyway. The name of the function we want is passed as an argument in `onclick()`.
+
+```python
+# Importing the turtle module
+from turtle import *
+from turtle import _CFG  # we need this to remove the scrollers
+
+# Resizes the default canvas size to prevent scrollers
+_CFG["canvwidth"] = 1 
+_CFG["canvheight"] = 1
+
+# Creates a window with the size 400 by 300 and sets the title
+setup(400, 300)
+title("My Turtle Animation")
+
+# Nancy is back
+nancy = Turtle()
+nancy.shape("turtle")
+nancy.speed(6)
+nancy.color("firebrick")
+
+# This function gets called when we click on Nancy
+def spin(x, y):
+  """Nancy goes forward then spins in a circle."""
+  nancy.forward(100)
+  nancy.circle(30)
+  nancy.left(90)
+
+nancy.onclick(spin)
+
+# Hides the turtle after she is done drawing
+hideturtle()
+
+# Keeps the program running after the drawing is complete
+done()
+```
+
+![](../Images/Turtle_Mouse.png)
+
+The `onrelease()` function is just like `onclick()` except it calls the function when we let go of a mouse button.
+
+```python
+# Importing the turtle module
+from turtle import *
+from turtle import _CFG  # we need this to remove the scrollers
+
+# Resizes the default canvas size to prevent scrollers
+_CFG["canvwidth"] = 1 
+_CFG["canvheight"] = 1
+
+# Creates a window with the size 400 by 300 and sets the title
+setup(400, 300)
+title("My Turtle Animation")
+
+# Nancy is back
+nancy = Turtle()
+nancy.shape("turtle")
+nancy.speed(6)
+nancy.color("firebrick")
+
+# This function gets called when we click and let go of Nancy
+def spin(x, y):
+  """Nancy goes forward then spins in a circle."""
+  nancy.forward(100)
+  nancy.circle(30)
+  nancy.left(90)
+
+nancy.onrelease(spin)
+
+# Keeps the program running after the drawing is complete
+done()
+```
+
+![](../Images/Turtle_Mouse.png)
+
+For both `onclick()` and `onrelease()`, we could pass a second argument indicating the mouse button. `1` is left click, `2` is middle click, and `3` is right click.
+
+
+### Modifications for CodeHS
+
+Here is the same program as above, but modified to work for CodeHS.
+
+```python
+hideturtle() # hides the default turtle
+
+# Nancy is back
+nancy = turtle.Turtle()
+nancy.shape("turtle")
+nancy.speed(6)
+nancy.color("firebrick")
+
+# This function gets called when we click and let go of Nancy
+def spin(x, y):
+  """Nancy goes forward then spins in a circle."""
+  nancy.forward(100)
+  nancy.circle(30)
+  nancy.left(90)
+
+nancy.onrelease(spin)
+```
+
