@@ -1,6 +1,6 @@
-### Audio in Repl.it
+### Audio in Replit
 
-Repl.it has a built-in media player that can be used to play audio files. 
+Replit has a built-in media player that can be used to play audio files. 
 
 To add audio to a Python project, we can use the `audio` class from the `replit` library.
 
