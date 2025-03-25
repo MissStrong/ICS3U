@@ -1,4 +1,4 @@
-## Lesson: Environmental Stewardship and Sustainability
+### Environmental Stewardship and Sustainability
 
 ### E-waste
 
@@ -9,7 +9,6 @@ One problem with this is that valuable metals such as copper are lost. A larger 
 Electronic waste that does not find its way into landfills is often collected and then sent either to China or to any one of a number of African countries where it is then reprocessed— sometimes under very dangerous conditions.
 
 Electronic waste is referred to as **e-waste** and includes computers, entertainment equipment, telecommunication equipment, as well as cooling appliances and other devices.
-
 
 Many countries are now trying to find ways to reduce the impact of computers and related technologies on the environment. Governments are introducing guidelines and regulations for the collection and recycling of e-waste in their countries.
 
@@ -22,7 +21,6 @@ Some suggestions:
 * recycle
 * re-use
 * reduce
-
 
 ### Resources
 
