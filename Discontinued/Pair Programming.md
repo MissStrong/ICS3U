@@ -1,4 +1,4 @@
-## Note – Pair Programming 
+### Pair Programming 
 
 ### What is Pair Programming?
 
