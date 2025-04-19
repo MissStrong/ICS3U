@@ -1,4 +1,4 @@
-## Expectations
+## Course Expectations
 
 In this course, you are expected to:
 
