@@ -2,11 +2,11 @@
 
 ### Reminders
 
-* Getting a **small amount** of help from online sources or generative AI is okay as long as you acknowledge them and indicate which lines of code you copied.
-* Getting a **small amount** of help from other people is okay as long as you are not copy-pasting their code and you are doing all the typing.
 * It is considered cheating if you paste all or most of the assignment instructions or starter code into a generative AI tool.
 * It is considered cheating if you send someone your entire program or let them take a picture of your program.
 * It is considered cheating if you copy large amounts of code from your peers or get someone to do all or most of the work for you.
+* Getting a **small amount** of help from online sources or generative AI is okay as long as you acknowledge them and indicate which lines of code you copied.
+* Getting a **small amount** of help from other people is okay as long as you are not copy-pasting their code and you are doing all the typing.
 * Each assignment has a file history that indicates when code is pasted in.
 * Cheating or lying about your sources (e.g. saying you didn't get help when you actually did) can lead to disciplinary actions.
 
