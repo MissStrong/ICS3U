@@ -5,15 +5,15 @@
 So far all of our Turtle programs have had just one turtle. If we want to make more than one turtle, we can use the `Turtle()` constructor to create each one. We can name each turtle and treat the turtle functions as turtle methods instead (i.e. use dot notation).
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
@@ -34,7 +34,7 @@ arthur.setheading(180)
 arthur.forward(100)
 arthur.circle(30)
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 

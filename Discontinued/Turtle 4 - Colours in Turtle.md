@@ -29,7 +29,7 @@ For example, pink's individual RGB values are 255 (#FF), 192 (#C0), 203 (#CB), s
 All functions that take a colour as a parameter can take the colour expressed as an RBG value, a hex value, or a recognized colour name. For convenience, we can make constants for the colours we use in our program.
 
 ```python
-# Initializing colours (using RGB values) so we can use them later
+initializing colours (using RGB values) so we can use them later
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
@@ -40,26 +40,26 @@ BLUE = (0, 0, 255)
 The default colour of a screen in Turtle is white. We can change the colour of the screen using `bgcolor()` like this:
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
-# Initializes the colour green as a tuple
+# initializes the colour green as a tuple
 colormode(255)
 GREEN = (0, 255, 0)
 
-# Makes the background of the window green
+# makes the background of the window green
 bgcolor(GREEN)
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -68,22 +68,22 @@ done()
 Turtle also recognizes [most of these colour names](https://www.tcl.tk/man/tcl/TkCmd/colors.html). To use any of them, we just write the name as a string.
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
-# Sets the background of the window to be the colour called "green1" (from the list of recognized colour names)
+# sets the background of the window to be the colour called "green1" (from the list of recognized colour names)
 bgcolor("green1")
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -92,23 +92,23 @@ done()
 To change the colour of the trail, we can use `pencolor()`.
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
-# Draws a circle with a radius of 40 with a red border
+# draws a circle with a radius of 40 with a red border
 pencolor("red")
 circle(40)
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -118,25 +118,25 @@ To change the colour of the fill, we can use `fillcolor()`.
 
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
-# Draws a red circle with a radius of 40 with a black border
+# draws a red circle with a radius of 40 with a black border
 fillcolor("red")
 begin_fill()
 circle(40)
 end_fill()
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -145,19 +145,19 @@ done()
 To change the trail colour and fill colour at the same time, we can use `color()`. If we just give one colour it will be for both, but if we give two colours the first colour will be for the trail and the second colour will be for the fill.
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
-# Draws a green circle
+# draws a green circle
 penup()
 goto(-100, 0)
 pendown()
@@ -166,7 +166,7 @@ begin_fill()
 circle(40)
 end_fill()
 
-# Draws a purple-yellow circle
+# draws a purple-yellow circle
 penup()
 goto(100, 0)
 pendown()
@@ -175,7 +175,7 @@ begin_fill()
 circle(40)
 end_fill()
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -188,15 +188,15 @@ In CodeHS, the colour mode is already set to RGB mode, so there's no need to wri
 For any of the programs above to work on CodeHS, the following lines need to be **removed**.
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 ```

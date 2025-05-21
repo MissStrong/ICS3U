@@ -7,15 +7,15 @@ Turtle has two functions that can be used to detect mouse pressing: `onclick()` 
 The `onclick()` function calls a function of our choice whenever we click on the turtle. The catch is that the function must take two parameters indicating the current (x, y) coordinate of the turtle, but we don't need to use `x` or `y` and we can also just get the position of any turtle using `position()` anyway. The name of the function we want is passed as an argument in `onclick()`.
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
@@ -25,7 +25,7 @@ nancy.shape("turtle")
 nancy.speed(6)
 nancy.color("firebrick")
 
-# This function gets called when we click on Nancy
+# this function gets called when we click on Nancy
 def spin(x, y):
   """Nancy goes forward then spins in a circle."""
   nancy.forward(100)
@@ -34,10 +34,10 @@ def spin(x, y):
 
 nancy.onclick(spin)
 
-# Hides the turtle after she is done drawing
+# hides the turtle after she is done drawing
 hideturtle()
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -46,15 +46,15 @@ done()
 The `onrelease()` function is just like `onclick()` except it calls the function when we let go of a mouse button.
 
 ```python
-# Importing the turtle module
+# importing the turtle module
 from turtle import *
 from turtle import _CFG  # we need this to remove the scrollers
 
-# Resizes the default canvas size to prevent scrollers
+# resizes the default canvas size to prevent scrollers
 _CFG["canvwidth"] = 1 
 _CFG["canvheight"] = 1
 
-# Creates a window with the size 400 by 300 and sets the title
+# creates a window with the size 400 by 300 and sets the title
 setup(400, 300)
 title("My Turtle Animation")
 
@@ -64,7 +64,7 @@ nancy.shape("turtle")
 nancy.speed(6)
 nancy.color("firebrick")
 
-# This function gets called when we click and let go of Nancy
+# this function gets called when we click and let go of Nancy
 def spin(x, y):
   """Nancy goes forward then spins in a circle."""
   nancy.forward(100)
@@ -73,7 +73,7 @@ def spin(x, y):
 
 nancy.onrelease(spin)
 
-# Keeps the program running after the drawing is complete
+# keeps the program running after the drawing is complete
 done()
 ```
 
@@ -95,7 +95,7 @@ nancy.shape("turtle")
 nancy.speed(6)
 nancy.color("firebrick")
 
-# This function gets called when we click and let go of Nancy
+# this function gets called when we click and let go of Nancy
 def spin(x, y):
   """Nancy goes forward then spins in a circle."""
   nancy.forward(100)

@@ -14,11 +14,11 @@ The `eval()` function can be useful when an expression we want to evaluate is st
 
 ```python
 try:
-  exp = input("Enter a math expression: ")
-  print("The answer is", eval(exp))
+    exp = input("Enter a math expression: ")
+    print("The answer is", eval(exp))
 except:
-  # this occurs if eval() raises an error
-  print("That's not a valid math expression.")
+    # this occurs if eval() raises an error
+    print("That's not a valid math expression.")
 ```
 
 There aren't that many cases when using `eval()` is the only way of doing something, but it is a useful tool to be aware of.

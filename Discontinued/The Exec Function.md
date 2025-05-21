@@ -15,12 +15,12 @@ Just like with `eval()`, the `exec()` function can be useful when an expression 
 
 ```python
 try:
-  num_list = input("Enter a list of numbers such as [1, 4, 3]: ")
-  exec("length = len(" + num_list + ")")
-  print(f"Your list has {length} numbers.")
+    num_list = input("Enter a list of numbers such as [1, 4, 3]: ")
+    exec("length = len(" + num_list + ")")
+    print(f"Your list has {length} numbers.")
 except:
-  # this occurs if exec() raises an error
-  print("That is not a valid list of numbers.")
+    # this occurs if exec() raises an error
+    print("That is not a valid list of numbers.")
 ```
 
 In thie example above, even though there is a red squiggly line under the print statement, it is not causing any errors since `length` gets defined when `exec()` is called.

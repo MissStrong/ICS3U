@@ -23,7 +23,7 @@ The problem with the function above is that it ignores the possibility that the 
 ```python
 def highest_num(num_list):
   """Returns the highest number in a list of numbers."""
-  if len(num_list) == 0:  # This handles the case when the list is empty
+  if len(num_list) == 0:  # this handles the case when the list is empty
     return None
   highest_num_so_far = num_list[0]
   for num in num_list:
