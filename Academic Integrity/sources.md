@@ -51,8 +51,9 @@
 
 * You have made an attempt to write the code yourself first.
 * You only use AI for debugging purposes once you have written most of the solution.
+* Your prompt includes something to the effect of "just give me a hint, don't tell me the answer" to prevent it from giving you the solution.
 * You only paste in the code you wrote into the AI tool (not the assignment instructions or the starter code).
-* You include your full AI chat history above.
+* You include your full AI chat history above as a share link or a full-page screenshot.
 
 
 ### Reminders
